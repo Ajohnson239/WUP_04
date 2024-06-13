@@ -52,6 +52,8 @@ By looking at this data the graduate and junior college boxes were above high sc
 ```{r}
 favstats(WORDSUM~DEGREE,data=mydata)
 ```
+  
+When looking at the data, I see a huge difference in students in high school to junior college. High school students were a total of 85 wheres junior college had the least amount at 12. The students with a bachelor degree were the second highest at 44 where the students in LT High school were at 16. All of the students attending had either a lot or a little bit of students. A big disparity between the number of students. There is going to be some statistical difference between these groups, it is not completely clear to what is different statistically.To make it clear, we will have to run theirs statistical test. There will be a two part test, First needing to run one way anova, to show us some statistical difference. To clarify this we would need to run the tukey HSD.
 
 ## Inferential Results
 
